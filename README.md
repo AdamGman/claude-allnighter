@@ -47,6 +47,17 @@ Or download `claude-allnighter.bat` from the [latest release](https://github.com
 
 > **Heads up — SmartScreen / AV.** The `.bat` is unsigned. Windows SmartScreen and most antivirus tools will flag it on first run as "unrecognized publisher." Review the file in any text editor before executing (it's a self-extracting batch + inline PowerShell — fully readable, ~40 KB), then click **More info → Run anyway** if you trust what you see. The whole point of this tool is "don't blindly trust unsigned scripts," so checking ours before running fits the brief.
 
+### Review what gets installed, before running anything
+
+The `.bat` is self-extracting — it drops four files into your project folder. **The exact file contents are visible at the repo root so you can read them first**, no extraction or running required:
+
+- **[`CLAUDE.md`](CLAUDE.md)** — behavioral rules Claude operates under (the four coding principles, project-scope fence, archive-over-delete safety, long-session HANDOFF discipline, no-AI-attribution commit rule).
+- **[`.claude/settings.json`](.claude/settings.json)** — the full 116 allow + 342 deny permissions list. Every pattern visible.
+- **[`ALLNIGHTER.md`](ALLNIGHTER.md)** — the explainer and disclaimer that ships into the user's project.
+- `.gitignore` — sensible defaults (visible inside the bat between `REM @@BEGIN .gitignore@@` and `REM @@END .gitignore@@`).
+
+If anything in those files looks wrong for your situation, edit them after install OR open an issue.
+
 You'll see:
 
 ```
