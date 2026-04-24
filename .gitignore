@@ -1,0 +1,14 @@
+# Output of re-running the installer in this folder
+# (existing files get written as <name>.template instead of being clobbered)
+*.template
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
