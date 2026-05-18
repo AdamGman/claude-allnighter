@@ -2,7 +2,7 @@
 
 # claude-allnighter
 
-### Autonomous Claude Code, safe for Windows.
+### Autonomous Claude Code, wake up to a finished product without clicking yes. Safe for Windows.
 
 [![Version](https://img.shields.io/badge/version-0.20-blue)](CHANGELOG.md)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2B-0078D4)](https://www.microsoft.com/windows)
